@@ -1,0 +1,81 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.CF{  
+  padding: 5%;
+  background-color: gray;
+  flex-grow: 1;
+
+}
+.CL{
+
+
+  padding: 5%;
+  background-color: blue;
+  flex-grow: 1;
+
+}
+.CF2{
+  padding: 5%;
+  background-color: green;
+  flex-grow: 1;
+
+}
+.CL2{
+  padding: 5%;
+  background-color: purple;
+  flex-grow: 1;
+
+}
+.D{
+  padding: 5%;
+  background-color: blanchedalmond;
+  flex-grow: 1;
+
+}
+.M{
+  padding: 5%;
+  background-color: yellow;
+  flex-grow: 1;
+
+
+}
+.travel-photos{
+  display: flex;
+  flex-basis: 100%;
+  flex: 1;
+  background-color: peru;
+  flex-grow: 1;
+
+
+}
+.travel-photos > picture { 
+
+  background-color:  blue;
+  
+  padding-right: 10%;
+  display: flex;
+  flex-direction: row;
+
+}
+.grid-container{
+
+  display: flex;
+  flex-direction: column;
+
+
+}
+@media screen and (max-width: 425) {
+  .col {
+     width: 50%;
+  }
+}
+@media screen and (max-width: 320) {
+  .col {
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 3fr 1fr 2fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "header header header header"
+    "CountryFilter CountryCityDetails . ."
+    "CountryList CountryCityDetails . ."
+    "CityFilter Map . ."
+    "CityList Map . ."; 
+}
+.header { grid-area: header; }
+.CountryFilter { grid-area: CountryFilter; }
+.CountryList { grid-area: CountryList; }
+.CityFilter { grid-area: CityFilter; }
+.CityList { grid-area: CityList; }
+.CountryCityDetails { grid-area: CountryCityDetails; }
+.Map { grid-area: Map; }
